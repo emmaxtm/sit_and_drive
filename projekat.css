@@ -1,0 +1,237 @@
+html,body{
+	background:#B9D3EE;
+	min-height:100%;
+}
+.fixed{
+	position:fixed;
+	background-color:#B9D3EE;
+	padding:10px;
+	font-size:35px;
+	text-align:justify;
+}
+.listeNav{
+	list-style-type:none;
+	display:inline;
+}
+a{
+	display:inline;
+	text-decoration:none;
+	padding:5px;
+	font-size:35px;
+	border:none;
+	border-radius:5px;
+	background-color:#B9D3EE;
+}
+a:hover{
+	background-color:white;
+}
+.logo{border:1px solid silver;
+      border-radius:10px;
+	margin-left:15px;
+	margin-right:15px;
+	font-family:Broadway;
+	font-size:45px;
+	font-weight:bold;
+	color:blue;
+	text-align:center;
+	background-image:url(logo.jpg);
+	padding:10px;
+}
+@keyframes voznjica{
+	from{top:0px;left:0px;}
+	to{top:0px;left:400px;}
+}
+#voznja{
+	position:relative;
+	animation:voznjica 5s infinite;
+	background:silver;
+}
+.usluge{position:relative;
+	padding-right:15px;
+	padding-left:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+	font-size:30px;
+	border:none;
+	display:inline;
+}
+.naslov{
+	text-align:center;
+	font-size:35px;
+}
+#okvir1{
+	width:25%;
+	height:120%;
+	margin:5% 0 5% 7%;
+	border:none;
+	padding:5px;
+	float:left;
+	font-size:30px;
+	letter-spacing:5px;
+	line-height:-6px;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+#okvir2{
+	width:25%;
+	height:120%;
+	margin:5% 0 5% 7%;
+	border:none;
+	padding:5px;
+	float:left;
+	font-size:30px;
+	letter-spacing:5px;
+	line-height:-6px;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+#okvir3{
+	width:25%;
+	height:120%;
+	margin:5% 0 5% 7%;
+	border:none;
+	padding:5px;
+	float:left;
+	font-size:30px;
+	letter-spacing:5px;
+	line-height:-6px;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+.zaListu{
+	display:block;
+	
+}
+.imgAkcije{
+	float:right;
+	width:100px;
+	height:80px;
+	margin-left:5px;
+}
+.tekst{
+	text-align:justify;
+	font-size:25px;
+}
+.okvirAkcije{
+	width:90%;
+	border:none;
+	padding:10px;
+	margin:5%;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+
+
+
+#content{
+	width: 600px;
+	float: left;
+	padding:5px;
+	margin:5%;
+}
+#sidebar{
+	width:300px;
+	float:right;
+	padding:5px;
+	margin:5%;
+}
+.sertifikati{
+	float:right;
+	width:140px;
+	height:115px;
+	margin-left:6px;
+}
+#footer{
+	font-size:16px;
+	font-style:italic;
+	text-align:center;
+	padding:10px;
+	background-color:beige;
+}
+.xenoni{
+	width:200px;
+	height:90px;
+	float:left;
+	margin-right:5px;
+}
+.dijagnostika{
+	margin:5%;
+	border:none;
+	padding:10px;
+	height:120%;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+.dijagnostika img{
+	height:200px;
+	width:300px;
+	margin:10px;
+}
+.mehanika{
+	margin:5%;
+	border:none;
+	padding:10px;
+	height:180%;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+.mehanika img{
+	height:200px;
+	width:300px;
+	float:left;margin:3%;
+	
+}
+.mehanika ul,li{
+	list-style-image:url(strelica1.jpg);
+	font-size:25px;
+	line-height:1.5em;
+}
+.delovi{
+	margin:5%;
+	border:none;
+	padding:10px;
+	height:200%;
+	background-image:linear-gradient(#8ee5ee,#00bfff,#009acd);
+}
+.autodelovi{
+	display:flex;
+	background-color:white;
+	flex-direction:row;
+	justify-content:space-around;margin:5%;
+}
+.autodelovi img{
+	width:110px;
+	height:80px;
+	margin:8px;
+}
+.heading2{
+	text-align:left;
+	font-size:30px;
+	font-family:Broadway;
+}
+.zaFormu{
+	width:500px;height:540px;
+	border-radius:10px;
+	position:relative;top:80px;left:450px;
+	padding:15px;
+	text-align:center;
+	font-family:Broadway;
+	font-size:25px;
+	line-height:2em;
+}
+input[type=text],textarea{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-family:inherit;
+	font-size:15px;
+}
+.dugme{
+	color:black;
+	padding:10px;
+	font-size:16px;
+	background-color:gray;
+}
+.dugme:hover{
+	background-color:lightblue;
+	box-shadow:3px 3px 3px #888888;
+	font-size:1em;
+}
+@media screen and(max-width:760px;){
+	
+}
